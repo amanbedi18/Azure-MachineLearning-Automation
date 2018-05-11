@@ -1,0 +1,6 @@
+{"AMLExperiments" :[
+{"EXP_name":"{Experiment name 1}","LS_name":"{Linked service name 1}"}, 
+{"EXP_name":"{Experiment name 2}","LS_name":"{Linked service name 2}"}, 
+{"EXP_name":"{Experiment name 3}","LS_name":"{Linked service name 3}"}
+]
+}

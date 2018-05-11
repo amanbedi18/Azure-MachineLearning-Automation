@@ -1,0 +1,82 @@
+﻿{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "dataFactoryName": {
+      "type": "string",
+      "value": "{data factory name}"
+    },
+    "dataFactoryHubName": {
+      "type": "string",
+      "value": ""
+    },
+    "resourceGroupName": {
+      "type": "string",
+      "value": "{resource group name}"
+    },
+    "environmentTag": {
+      "type": "string",
+      "value": ""
+    },
+    "datafactoryLocation": {
+      "type": "string",
+      "value": "{data factory location}"
+    },
+    "storageAccountName": {
+      "type": "string",
+      "value": "{storage account name}"
+    },
+    "storageAccountKey": {
+      "type": "string",
+      "value": "{storage account key}"
+    },
+    "batchAccountName": {
+      "type": "string",
+      "value": "{batch account name}"
+    },
+    "batchAccountKey": {
+      "type": "string",
+      "value": "{batch account key}"
+    },
+    "batchAccountPoolName": {
+      "type": "string",
+      "value": "{batch pool name}"
+    },
+    "batchURI": {
+      "type": "string",
+      "value": "{batch uri}"
+    },
+    "amlEndPoint": {
+      "type": "string",
+      "value": "{aml endpoint}"
+    },
+    "amlApiKey": {
+      "type": "string",
+      "value": "{aml api key}"
+    },
+    "datahubSqlServerName": {
+      "type": "string",
+      "value": "{sql server name}"
+    },
+    "datahubDatabaseName": {
+      "type": "string",
+      "value": "{database name}"
+    },
+    "datahubSqlServerAdminLogin": {
+      "type": "string",
+      "value": "{database username}"
+    },
+    "datahubSqlServerAdminLoginPassword": {
+      "type": "securestring",
+      "value": "{database password}"
+    },
+    "datahubSqlServerReadOnlyLogin": {
+      "type": "string",
+      "value": ""
+    },
+    "datahubSqlServerReadOnlyLoginPassword": {
+      "type": "securestring",
+      "value": ""
+    }
+  }
+}
